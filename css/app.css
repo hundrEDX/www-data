@@ -143,6 +143,16 @@ footer a:hover {
 .card {
   min-height: 225px;
 }
+
+.card-price {
+    left: 87%;
+    position: absolute;
+    top: 01%;
+    font-style: italic;
+	color: #bd4471;
+}
+
+
 /* End - Features Section  */
 
 /* Plans Section  */
