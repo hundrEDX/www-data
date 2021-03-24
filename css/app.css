@@ -1,14 +1,20 @@
 /* ---------------- General App Setting -----------------------------*/
 body {
   background-color: #f1f1f1;
-  color: #464646;     /* Wordpress gray */
+  color: #f3f3f3;     /* Wordpress gray */
+  background-image: url(../images/baner.jpg);
+  background-size: contain;
+  background-position: 50% 0;
+  text-align: center;
 }
 
 h1 {
-  font-weight: 700;
+ 
+  font-size: 32px;
 }
 h2 {
   margin-top: 25px;
+
   margin-bottom: 25px;
 }
 
@@ -142,10 +148,11 @@ footer a:hover {
 /* Features Section  */
 .card {
   min-height: 225px;
+  background-color: #ffffff2e;
 }
 
 .card-price {
-    left: 86%;
+    left: 87%;
     position: absolute;
     top: 01%;
     font-style: italic;
@@ -239,14 +246,14 @@ footer a:hover {
 .contact-left {
   background-image: url("../images/vova3.jpg");
   background-repeat: no-repeat;
-  background-color: white;
+  background-color: #1b1d1f;
   background-size: cover;
 }
 
 .contact-left2 {
   background-image: url("../images/vova4.jpg");
   background-repeat: no-repeat;
-  background-color: white;
+  background-color: #1b1d1f;
   background-size: cover;
 }
 
@@ -255,7 +262,7 @@ footer a:hover {
 }
 
 .contact-right {
-  background-color: white;
+  background-color: #1b1d1f;
 }
 /* End - Contact Section  */
 
@@ -399,6 +406,7 @@ footer a:hover {
 
   .card {
     margin-bottom: 25px;
+
   }
 
   .contact-left {
