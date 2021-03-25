@@ -103,9 +103,108 @@ var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(glc
 
     <div class="container">
 
+
+      <section id="premium-services">
+        <h2>Мой блог</h2>
+        <div class="row text-center">
+
+          <div class="col-lg-6 col-md-12 mb-3">
+            <div class="card box-shadow relative-anchor premium-service">
+              <div class="card-body">
+                <h4 class="card-title">Интеграция СЦОС: авторизация</h4>
+                <hr />
+                <p class="card-text"> Необходимо было реализовать функции передачи иформации о пользователях через api для работы между платформой вуза и агрегатором edu.ru через доверенные сертификаты</p>
+                <ul class="text-left">
+                  <li>Django REST Framework</li>
+                  <li>Django/Python</li>
+                </ul>
+                <ul class="text-left">
+                  <li><a href="https://vladimirandropov.wordpress.com/2021/01/03/example-post-3/" target="_blank">ссылка на статью	</a></li>
+                  <li><a href="https://github.com/VladimirAndropov/edx-platform" target="_blank">код на github	</a></li>
+                </ul>
+              </div> 
+              <div class="premium-service-icon">
+                <div class="premium-service-icon-centered">
+                  <i class="material-icons md-lg md-blue-light">cloud_queue</i>
+                </div> 
+              </div><p class="card-price">срок: 2 нед</p>
+            </div> 
+          </div> 
+
+          <div class="col-lg-6 col-md-12 mb-3">
+            <div class="card box-shadow relative-anchor premium-service">
+              <div class="card-body">
+                <h4 class="card-title">Передача результатов в СЦОС</h4>
+                <hr />
+                <p class="card-text">Необходимо было написать пару функций и страницу для создания паспорта курса c экспортом даных из LMS.</p>
+                <ul class="text-left">
+                  <li>Django REST Framework</li>
+                  <li>Django/Python</li>
+                </ul>
+                <ul class="text-left">
+                  <li><a href="https://vladimirandropov.wordpress.com/2021/01/03/example-post-2/" target="_blank">ссылка на статью	</a></li>
+                  <li><a href="https://github.com/VladimirAndropov/edx-platform" target="_blank">код на github	</a></li>
+                </ul>
+              </div>
+              <div class="premium-service-icon">
+                <div class="premium-service-icon-centered">
+                  <i class="material-icons md-lg md-blue-light">android</i>
+                </div>
+              </div><p class="card-price">срок: 1 мес</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12 mb-3">
+            <div class="card box-shadow relative-anchor premium-service">
+              <div class="card-body">
+                <h4 class="card-title">Передача курсов в СЦОС</h4>
+                <hr />
+                <p class="card-text">Реализовывал функционал для загрузки паспортов курсов в формате json с платформы на агрегатор в авторежиме </p>
+                <ul class="text-left">
+                  <li>json</li>
+                  <li>Django/Python</li>
+                </ul>
+                <ul class="text-left">
+                  <li><a href="https://vladimirandropov.wordpress.com/2021/01/03/example-post/" target="_blank">ссылка на статью	</a></li>
+                  <li><a href="https://github.com/VladimirAndropov/edx-platform" target="_blank">код на github	</a></li>
+                </ul>
+              </div>
+              <div class="premium-service-icon">
+                <div class="premium-service-icon-centered">
+                  <i class="material-icons md-lg md-blue-light">cached</i>
+                </div>
+              </div><p class="card-price">срок: 2 нед</p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 mb-3">
+            <div class="card box-shadow relative-anchor premium-service">
+              <div class="card-body">
+                <h4 class="card-title">Celery и асинхронная передача в СЦОС</h4>
+                <hr />
+                <p class="card-text">Написание задач для выполнения в Celery асинхронно.</p>
+                <ul class="text-left">
+                  <li>Celery</li>
+                  <li>Django/Python</li>
+                </ul>
+                <ul class="text-left">
+                  <li><a href="https://vladimirandropov.wordpress.com/2021/01/03/celery-%d0%b8-%d0%b0%d1%81%d0%b8%d0%bd%d1%85%d1%80%d0%be%d0%bd%d0%bd%d0%b0%d1%8f-%d0%bf%d0%b5%d1%80%d0%b5%d0%b4%d0%b0%d1%87%d0%b0-%d0%b2-%d1%81%d1%86%d0%be%d1%81/" target="_blank">ссылка на статью	</a></li>
+                  <li><a href="https://github.com/VladimirAndropov/edx-platform" target="_blank">код на github	</a></li>
+                </ul>
+              </div>
+              <div class="premium-service-icon">
+                <div class="premium-service-icon-centered">
+                  <i class="material-icons md-lg md-blue-light">build</i>
+                </div>
+              </div><p class="card-price">срок: 1 нед</p>
+            </div>
+          </div>
+
+        </div> <!-- Premium Services - row text-center -->
+      </section>  <!-- Premium Services -->
+
       <section id="services">
-        <h2>Выполненные заявки с 
-		<a href="https://www.upwork.com/freelancers/~0147ba0e1b0d77849d" target="_blank">upwork</a>:</h2>
+        <h2>Выполненные заявки на 
+		<a href="https://www.upwork.com/freelancers/~0147ba0e1b0d77849d" target="_blank">upwork</a></h2>
 
         <div class="row text-center">
           
@@ -327,103 +426,7 @@ var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(glc
         </div> <!-- Tariff - row text-center -->
       </section>  <!-- Tariff -->
 		
-      <section id="premium-services">
-        <h2>Блог с описанием работ</h2>
-        <div class="row text-center">
-
-          <div class="col-lg-6 col-md-12 mb-3">
-            <div class="card box-shadow relative-anchor premium-service">
-              <div class="card-body">
-                <h4 class="card-title">Интеграция СЦОС: авторизация</h4>
-                <hr />
-                <p class="card-text"> Необходимо было реализовать функции передачи иформации о пользователях через api для работы между платформой вуза и агрегатором edu.ru через доверенные сертификаты</p>
-                <ul class="text-left">
-                  <li>Django REST Framework</li>
-                  <li>Django/Python</li>
-                </ul>
-                <ul class="text-left">
-                  <li><a href="https://vladimirandropov.wordpress.com/2021/01/03/example-post-3/" target="_blank">ссылка на статью	</a></li>
-                  <li><a href="https://github.com/VladimirAndropov/edx-platform" target="_blank">код на github	</a></li>
-                </ul>
-              </div> 
-              <div class="premium-service-icon">
-                <div class="premium-service-icon-centered">
-                  <i class="material-icons md-lg md-blue-light">cloud_queue</i>
-                </div> 
-              </div><p class="card-price">lite</p>
-            </div> 
-          </div> 
-
-          <div class="col-lg-6 col-md-12 mb-3">
-            <div class="card box-shadow relative-anchor premium-service">
-              <div class="card-body">
-                <h4 class="card-title">Передача результатов в СЦОС</h4>
-                <hr />
-                <p class="card-text">Необходимо было написать пару функций и страницу для создания паспорта курса c экспортом даных из LMS.</p>
-                <ul class="text-left">
-                  <li>Django REST Framework</li>
-                  <li>Django/Python</li>
-                </ul>
-                <ul class="text-left">
-                  <li><a href="https://vladimirandropov.wordpress.com/2021/01/03/example-post-2/" target="_blank">ссылка на статью	</a></li>
-                  <li><a href="https://github.com/VladimirAndropov/edx-platform" target="_blank">код на github	</a></li>
-                </ul>
-              </div>
-              <div class="premium-service-icon">
-                <div class="premium-service-icon-centered">
-                  <i class="material-icons md-lg md-blue-light">android</i>
-                </div>
-              </div><p class="card-price">VIP</p>
-            </div>
-          </div>
-
-          <div class="col-lg-6 col-md-12 mb-3">
-            <div class="card box-shadow relative-anchor premium-service">
-              <div class="card-body">
-                <h4 class="card-title">Передача курсов в СЦОС</h4>
-                <hr />
-                <p class="card-text">Реализовывал функционал для загрузки паспортов курсов в формате json с платформы на агрегатор в авторежиме </p>
-                <ul class="text-left">
-                  <li>json</li>
-                  <li>Django/Python</li>
-                </ul>
-                <ul class="text-left">
-                  <li><a href="https://vladimirandropov.wordpress.com/2021/01/03/example-post/" target="_blank">ссылка на статью	</a></li>
-                  <li><a href="https://github.com/VladimirAndropov/edx-platform" target="_blank">код на github	</a></li>
-                </ul>
-              </div>
-              <div class="premium-service-icon">
-                <div class="premium-service-icon-centered">
-                  <i class="material-icons md-lg md-blue-light">cached</i>
-                </div>
-              </div><p class="card-price">basic</p>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-12 mb-3">
-            <div class="card box-shadow relative-anchor premium-service">
-              <div class="card-body">
-                <h4 class="card-title">Celery и асинхронная передача в СЦОС</h4>
-                <hr />
-                <p class="card-text">Написание задач для выполнения в Celery асинхронно.</p>
-                <ul class="text-left">
-                  <li>Celery</li>
-                  <li>Django/Python</li>
-                </ul>
-                <ul class="text-left">
-                  <li><a href="https://vladimirandropov.wordpress.com/2021/01/03/celery-%d0%b8-%d0%b0%d1%81%d0%b8%d0%bd%d1%85%d1%80%d0%be%d0%bd%d0%bd%d0%b0%d1%8f-%d0%bf%d0%b5%d1%80%d0%b5%d0%b4%d0%b0%d1%87%d0%b0-%d0%b2-%d1%81%d1%86%d0%be%d1%81/" target="_blank">ссылка на статью	</a></li>
-                  <li><a href="https://github.com/VladimirAndropov/edx-platform" target="_blank">код на github	</a></li>
-                </ul>
-              </div>
-              <div class="premium-service-icon">
-                <div class="premium-service-icon-centered">
-                  <i class="material-icons md-lg md-blue-light">build</i>
-                </div>
-              </div><p class="card-price">VIP</p>
-            </div>
-          </div>
-
-        </div> <!-- Premium Services - row text-center -->
-      </section>  <!-- Premium Services -->
+      
 
 
     <section  id="portfolio">  <!-- Portfolio -->
@@ -533,8 +536,9 @@ var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(glc
 
             <h4 class="text-center"><strong>Я могу Вам помочь!</strong></h4>
             <p class="lead text-center">
-              <a class="cta btn btn-primary btn-lg mt-4 mb-3" href="/contact/index.html" role="button">Связаться со мной</a>
-            </p>
+              <a class="cta btn btn-primary btn-lg mt-4 mb-3" href="https://t.me/handredX" role="button">Telegram</a>
+              <a class="cta btn btn-primary btn-lg mt-4 mb-3" href="https://www.facebook.com/groups/hundrEDX/?ref=bookmarks" role="button">Facebook</a>
+              </p>
 
           </div>
         </div>  <!-- row -->
@@ -542,7 +546,7 @@ var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(glc
 
     </div>    <!-- container -->
 
-     <a class="btn btn-secondary btn-lg btn-block" href="http://hundredx.ru/open-edx-budget.xlsx" role="button">Дорого? Составьте свой прайс-лист и отправьте мне. Договоримся!</a>   
+     <a class="btn btn-secondary btn-lg btn-block" href="http://hundredx.ru/open-edx-budget.xlsx" role="button">Есть предложения? Составьте свой прайс-лист по этому шаблону и отправьте мне. Договоримся!</a>   
 
 
         
